@@ -24,6 +24,7 @@ namespace kubernetes_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // add kubernetes services here.
             services.AddControllers();
         }
 
