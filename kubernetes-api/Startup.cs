@@ -25,6 +25,9 @@ namespace kubernetes_api
         public void ConfigureServices(IServiceCollection services)
         {
             // add kubernetes services here.
+            // 1
+            // 2
+            // 3 
             services.AddControllers();
         }
 
