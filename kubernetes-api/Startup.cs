@@ -34,6 +34,7 @@ namespace kubernetes_api
             {
                 app.UseDeveloperExceptionPage();
             }
+            // add kubernetes middleware
 
             app.UseRouting();
 
